@@ -1,0 +1,891 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dezynex.al_dana_admin"
+4    android:versionCode="10"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:42:5-67
+11-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:42:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:43:5-79
+12-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:43:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:44:5-81
+13-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:44:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:45:5-79
+14-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:45:22-76
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:46:5-77
+15-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:46:22-74
+16    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+16-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:47:5-78
+16-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:47:22-76
+17    <uses-permission
+17-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:48:5-49:38
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:48:22-77
+19        android:maxSdkVersion="33" />
+19-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:49:9-35
+20    <uses-permission
+20-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:50:5-51:39
+21        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+21-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:50:22-78
+22        android:maxSdkVersion="33" />
+22-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:51:9-35
+23    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+23-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:52:5-75
+23-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:52:22-73
+24    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+24-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:53:5-74
+24-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:53:22-72
+25    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+25-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:54:5-74
+25-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:54:22-72
+26
+27    <queries>
+27-->[:file_picker] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+28        <intent>
+28-->[:file_picker] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+29            <action android:name="android.intent.action.GET_CONTENT" />
+29-->[:file_picker] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+29-->[:file_picker] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+30
+31            <data android:mimeType="*/*" />
+31-->[:file_picker] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+31-->[:file_picker] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+32        </intent>
+33
+34        <package android:name="com.google.android.apps.maps" />
+34-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-64
+34-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-61
+35        <package android:name="com.google.android.apps.mapslite" />
+35-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-68
+35-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:18-65
+36        <package android:name="com.autonavi.minimap" />
+36-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-56
+36-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:12:18-53
+37        <package android:name="com.baidu.BaiduMap" />
+37-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-54
+37-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:13:18-51
+38        <package android:name="com.waze" />
+38-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-44
+38-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:14:18-41
+39        <package android:name="ru.yandex.yandexnavi" />
+39-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-56
+39-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:15:18-53
+40        <package android:name="ru.yandex.yandexmaps" />
+40-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-56
+40-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:16:18-53
+41        <package android:name="com.citymapper.app.release" />
+41-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-62
+41-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:17:18-59
+42        <package android:name="com.mapswithme.maps.pro" />
+42-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-59
+42-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:18:18-56
+43        <package android:name="net.osmand" />
+43-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-46
+43-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:19:18-43
+44        <package android:name="net.osmand.plus" />
+44-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-51
+44-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:20:18-48
+45        <package android:name="ru.dublgis.dgismobile" />
+45-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-57
+45-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:21:18-54
+46        <package android:name="com.tencent.map" />
+46-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-51
+46-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:22:18-48
+47        <package android:name="com.here.app.maps" />
+47-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-53
+47-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:23:18-50
+48        <package android:name="com.huawei.maps.app" />
+48-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-55
+48-->[:map_launcher] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:24:18-52
+49    </queries> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+50    <permission
+50-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:10:5-12:47
+51        android:name="com.dezynex.al_dana_admin.permission.C2D_MESSAGE"
+51-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:11:9-63
+52        android:protectionLevel="signature" />
+52-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:12:9-44
+53
+54    <uses-permission android:name="com.dezynex.al_dana_admin.permission.C2D_MESSAGE" /> <!-- Required runtime permission to display notifications on Android 13 -->
+54-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:14:5-79
+54-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:14:22-76
+55    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required, makes sure notifications are delivered on time. -->
+55-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:17:5-77
+55-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:17:22-74
+56    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+56-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:18:5-68
+56-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:18:22-65
+57    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+57-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:19:5-82
+57-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:19:22-79
+58    <!--
+59 Required so the device vibrates on receiving a push notification.
+60         Vibration settings of the device still apply.
+61    -->
+62    <uses-permission android:name="android.permission.VIBRATE" />
+62-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:24:5-66
+62-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:24:22-63
+63    <!--
+64 Use to restore notifications the user hasn't interacted with.
+65     They could be missed notifications if the user reboots their device if this isn't in place.
+66    -->
+67    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+67-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:29:5-81
+67-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:29:22-78
+68    <!-- Samsung -->
+69    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+69-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:31:5-86
+69-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:31:22-83
+70    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+70-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:32:5-87
+70-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:32:22-84
+71    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+71-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:33:5-81
+71-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:33:22-78
+72    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+72-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:34:5-83
+72-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:34:22-80
+73    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+73-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:35:5-88
+73-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:35:22-85
+74    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+74-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:36:5-92
+74-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:36:22-89
+75    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+75-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:37:5-84
+75-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:37:22-81
+76    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+76-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:38:5-83
+76-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:38:22-80
+77    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+77-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:39:5-91
+77-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:39:22-88
+78    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+78-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:40:5-92
+78-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:40:22-89
+79    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+79-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:41:5-93
+79-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:41:22-90
+80    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+80-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:42:5-73
+80-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:42:22-70
+81    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+81-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:43:5-82
+81-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:43:22-79
+82    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+82-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:44:5-83
+82-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:44:22-80
+83    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+83-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:45:5-88
+83-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:45:22-85
+84    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+84-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:46:5-89
+84-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:46:22-86
+85
+86    <uses-feature
+86-->[com.google.android.gms:play-services-maps:18.1.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/285f216ecfd6c36a7b54d97b17071d59/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+87        android:glEsVersion="0x00020000"
+87-->[com.google.android.gms:play-services-maps:18.1.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/285f216ecfd6c36a7b54d97b17071d59/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+88        android:required="true" />
+88-->[com.google.android.gms:play-services-maps:18.1.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/285f216ecfd6c36a7b54d97b17071d59/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+89
+90    <permission
+90-->[androidx.core:core:1.10.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/33ea6619dad66716f45041239e9188c1/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+91        android:name="com.dezynex.al_dana_admin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+91-->[androidx.core:core:1.10.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/33ea6619dad66716f45041239e9188c1/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+92        android:protectionLevel="signature" />
+92-->[androidx.core:core:1.10.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/33ea6619dad66716f45041239e9188c1/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+93
+94    <uses-permission android:name="com.dezynex.al_dana_admin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+94-->[androidx.core:core:1.10.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/33ea6619dad66716f45041239e9188c1/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+94-->[androidx.core:core:1.10.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/33ea6619dad66716f45041239e9188c1/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+95
+96    <application
+97        android:name="android.app.Application"
+97-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:5:9-42
+98        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+98-->[androidx.core:core:1.10.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/33ea6619dad66716f45041239e9188c1/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+99        android:icon="@mipmap/ic_launcher"
+99-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:6:9-43
+100        android:label="Al-Dana Admin"
+100-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:4:9-38
+101        android:requestLegacyExternalStorage="true"
+101-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:8:9-52
+102        android:usesCleartextTraffic="true" >
+102-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:7:9-44
+103        <activity
+103-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:9:9-32:20
+104            android:name="com.dezynex.al_dana_admin.MainActivity"
+104-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:10:13-41
+105            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+105-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:14:13-163
+106            android:exported="true"
+106-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:11:13-36
+107            android:hardwareAccelerated="true"
+107-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:15:13-47
+108            android:launchMode="singleTop"
+108-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:12:13-43
+109            android:theme="@style/LaunchTheme"
+109-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:13:13-47
+110            android:windowSoftInputMode="adjustResize" >
+110-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:16:13-55
+111
+112            <!--
+113            Specifies an Android theme to apply to this Activity as soon as
+114                 the
+115            Android process has started. This theme is visible to the user
+116                 while
+117            the Flutter UI initializes. After that, this theme continues
+118                 to
+119            determine the Window background behind the Flutter UI.
+120            -->
+121            <meta-data
+121-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:24:13-27:15
+122                android:name="io.flutter.embedding.android.NormalTheme"
+122-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:25:17-72
+123                android:resource="@style/NormalTheme" />
+123-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:26:17-54
+124
+125            <intent-filter>
+125-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:28:13-31:29
+126                <action android:name="android.intent.action.MAIN" />
+126-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:29:17-69
+126-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:29:25-66
+127
+128                <category android:name="android.intent.category.LAUNCHER" />
+128-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:30:17-77
+128-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:30:27-74
+129            </intent-filter>
+130        </activity>
+131        <!--
+132        Don't delete the meta-data below.
+133             This is used by the Flutter tool to
+134        generate GeneratedPluginRegistrant.java
+135        -->
+136        <meta-data
+136-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:36:9-38:33
+137            android:name="flutterEmbedding"
+137-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:37:13-44
+138            android:value="2" />
+138-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:38:13-30
+139        <meta-data
+139-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:39:9-40:71
+140            android:name="com.google.android.geo.API_KEY"
+140-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:39:20-65
+141            android:value="AIzaSyAZhyWZFJMPbZXMYgfkJlMoy77WQ4RxVzk" />
+141-->/Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/android/app/src/main/AndroidManifest.xml:40:13-68
+142
+143        <provider
+143-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+144            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+144-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+145            android:authorities="com.dezynex.al_dana_admin.flutter.image_provider"
+145-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+146            android:exported="false"
+146-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+147            android:grantUriPermissions="true" >
+147-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+148            <meta-data
+148-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+149                android:name="android.support.FILE_PROVIDER_PATHS"
+149-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+150                android:resource="@xml/flutter_image_picker_file_paths" />
+150-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+151        </provider>
+152
+153        <activity
+153-->[:url_launcher_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+154            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+154-->[:url_launcher_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+155            android:exported="false"
+155-->[:url_launcher_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+156            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+156-->[:url_launcher_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+157
+158        <provider
+158-->[:open_file] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-20:20
+159            android:name="com.crazecoder.openfile.FileProvider"
+159-->[:open_file] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+160            android:authorities="com.dezynex.al_dana_admin.fileProvider.com.crazecoder.openfile"
+160-->[:open_file] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+161            android:exported="false"
+161-->[:open_file] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+162            android:grantUriPermissions="true" >
+162-->[:open_file] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+163            <meta-data
+163-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+164                android:name="android.support.FILE_PROVIDER_PATHS"
+164-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+165                android:resource="@xml/filepaths" />
+165-->[:image_picker_android] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+166        </provider>
+167
+168        <service
+168-->[:location] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-17:56
+169            android:name="com.lyokone.location.FlutterLocationService"
+169-->[:location] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-71
+170            android:enabled="true"
+170-->[:location] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-35
+171            android:exported="false"
+171-->[:location] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+172            android:foregroundServiceType="location" />
+172-->[:location] /Users/dezynextechnologysolutons/Documents/Development/flutter/git/al_dana_admin/build/location/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-53
+173
+174        <receiver
+174-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:49:9-60:20
+175            android:name="com.onesignal.notifications.receivers.FCMBroadcastReceiver"
+175-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:50:13-86
+176            android:exported="true"
+176-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:51:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:52:13-73
+178
+179            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+180            <intent-filter android:priority="999" >
+180-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:55:13-59:29
+180-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:55:28-50
+181                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+181-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:56:17-81
+181-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:56:25-78
+182
+183                <category android:name="com.dezynex.al_dana_admin" />
+183-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:58:17-61
+183-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:58:27-58
+184            </intent-filter>
+185        </receiver>
+186
+187        <service
+187-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:62:9-68:19
+188            android:name="com.onesignal.notifications.services.HmsMessageServiceOneSignal"
+188-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:63:13-91
+189            android:exported="false" >
+189-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:64:13-37
+190            <intent-filter>
+190-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:65:13-67:29
+191                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+191-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:66:17-81
+191-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:66:25-78
+192            </intent-filter>
+193        </service>
+194
+195        <activity
+195-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:70:9-78:20
+196            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityHMS"
+196-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:71:13-96
+197            android:exported="true"
+197-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:72:13-36
+198            android:noHistory="true"
+198-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:73:13-37
+199            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+199-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:74:13-72
+200            <intent-filter>
+200-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:75:13-77:29
+201                <action android:name="android.intent.action.VIEW" />
+201-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:76:17-69
+201-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:76:25-66
+202            </intent-filter>
+203        </activity>
+204
+205        <receiver
+205-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:80:9-82:39
+206            android:name="com.onesignal.notifications.receivers.NotificationDismissReceiver"
+206-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:81:13-93
+207            android:exported="true" />
+207-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:82:13-36
+208        <receiver
+208-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:83:9-90:20
+209            android:name="com.onesignal.notifications.receivers.BootUpReceiver"
+209-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:84:13-80
+210            android:exported="true" >
+210-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:85:13-36
+211            <intent-filter>
+211-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:86:13-89:29
+212                <action android:name="android.intent.action.BOOT_COMPLETED" />
+212-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:87:17-79
+212-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:87:25-76
+213                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+213-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:88:17-82
+213-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:88:25-79
+214            </intent-filter>
+215        </receiver>
+216        <receiver
+216-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:91:9-97:20
+217            android:name="com.onesignal.notifications.receivers.UpgradeReceiver"
+217-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:92:13-81
+218            android:exported="true" >
+218-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:93:13-36
+219            <intent-filter>
+219-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:94:13-96:29
+220                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+220-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:95:17-84
+220-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:95:25-81
+221            </intent-filter>
+222        </receiver>
+223
+224        <activity
+224-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:99:9-105:75
+225            android:name="com.onesignal.notifications.activities.NotificationOpenedActivity"
+225-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:100:13-93
+226            android:excludeFromRecents="true"
+226-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:101:13-46
+227            android:exported="true"
+227-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:102:13-36
+228            android:noHistory="true"
+228-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:103:13-37
+229            android:taskAffinity=""
+229-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:104:13-36
+230            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+230-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:105:13-72
+231        <activity
+231-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:106:9-111:75
+232            android:name="com.onesignal.notifications.activities.NotificationOpenedActivityAndroid22AndOlder"
+232-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:107:13-110
+233            android:excludeFromRecents="true"
+233-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:108:13-46
+234            android:exported="true"
+234-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:109:13-36
+235            android:noHistory="true"
+235-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:110:13-37
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+236-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:111:13-72
+237
+238        <service
+238-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:13:9-16:43
+239            android:name="com.onesignal.core.services.SyncService"
+239-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:14:13-67
+240            android:exported="false"
+240-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:15:13-37
+241            android:stopWithTask="true" />
+241-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:16:13-40
+242        <service
+242-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:17:9-20:72
+243            android:name="com.onesignal.core.services.SyncJobService"
+243-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:18:13-70
+244            android:exported="false"
+244-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:19:13-37
+245            android:permission="android.permission.BIND_JOB_SERVICE" />
+245-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:20:13-69
+246
+247        <activity
+247-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:22:9-25:75
+248            android:name="com.onesignal.core.activities.PermissionsActivity"
+248-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:23:13-77
+249            android:exported="false"
+249-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:24:13-37
+250            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+250-->[com.onesignal:core:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/0c7d5ca557e3e72de16732abef96adeb/transformed/jetified-core-5.1.2/AndroidManifest.xml:25:13-72
+251        <uses-library
+251-->[com.google.android.gms:play-services-maps:18.1.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/285f216ecfd6c36a7b54d97b17071d59/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+252            android:name="org.apache.http.legacy"
+252-->[com.google.android.gms:play-services-maps:18.1.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/285f216ecfd6c36a7b54d97b17071d59/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+253            android:required="false" />
+253-->[com.google.android.gms:play-services-maps:18.1.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/285f216ecfd6c36a7b54d97b17071d59/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+254
+255        <activity
+255-->[com.google.android.gms:play-services-base:18.0.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a99382bd16082f300bdfbe4cedd061ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+256            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+256-->[com.google.android.gms:play-services-base:18.0.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a99382bd16082f300bdfbe4cedd061ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-base:18.0.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a99382bd16082f300bdfbe4cedd061ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+258            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+258-->[com.google.android.gms:play-services-base:18.0.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a99382bd16082f300bdfbe4cedd061ba/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+259
+260        <receiver
+260-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+261            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+261-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+262            android:exported="true"
+262-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+263            android:permission="com.google.android.c2dm.permission.SEND" >
+263-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+264            <intent-filter>
+264-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+265                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+265-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:56:17-81
+265-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:56:25-78
+266            </intent-filter>
+267        </receiver>
+268        <!--
+269             FirebaseMessagingService performs security checks at runtime,
+270             but set to not exported to explicitly avoid allowing another app to call it.
+271        -->
+272        <service
+272-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+273            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+273-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+274            android:directBootAware="true"
+274-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+275            android:exported="false" >
+275-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+276            <intent-filter android:priority="-500" >
+276-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:13-47:29
+276-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:28-51
+277                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+277-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:46:17-78
+277-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:46:25-75
+278            </intent-filter>
+279        </service>
+280        <service
+280-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+281            android:name="com.google.firebase.components.ComponentDiscoveryService"
+281-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:50:13-84
+282            android:directBootAware="true"
+282-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+283            android:exported="false" >
+283-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+284            <meta-data
+284-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+285                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+285-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+286                android:value="com.google.firebase.components.ComponentRegistrar" />
+286-->[com.google.firebase:firebase-messaging:23.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/2761578e0135c86393cb67957ed3c097/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+287            <meta-data
+287-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/3e58215640f2473e140320a8e695eb4c/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+288                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+288-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/3e58215640f2473e140320a8e695eb4c/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+289                android:value="com.google.firebase.components.ComponentRegistrar" />
+289-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/3e58215640f2473e140320a8e695eb4c/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+290            <meta-data
+290-->[com.google.firebase:firebase-installations:17.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/941356c47c793ada243dfb13bfb7a793/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+291                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+291-->[com.google.firebase:firebase-installations:17.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/941356c47c793ada243dfb13bfb7a793/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+292                android:value="com.google.firebase.components.ComponentRegistrar" />
+292-->[com.google.firebase:firebase-installations:17.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/941356c47c793ada243dfb13bfb7a793/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+293        </service>
+294
+295        <provider
+295-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+296            android:name="com.google.firebase.provider.FirebaseInitProvider"
+296-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+297            android:authorities="com.dezynex.al_dana_admin.firebaseinitprovider"
+297-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+298            android:directBootAware="true"
+298-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+299            android:exported="false"
+299-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+300            android:initOrder="100" />
+300-->[com.google.firebase:firebase-common:20.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ea3ef647ba7f54899d620a2a54aefa7e/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+301
+302        <meta-data
+302-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ab1f2ab9bcece2004aaa4d193002a64b/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+303            android:name="com.google.android.gms.version"
+303-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ab1f2ab9bcece2004aaa4d193002a64b/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+304            android:value="@integer/google_play_services_version" />
+304-->[com.google.android.gms:play-services-basement:18.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/ab1f2ab9bcece2004aaa4d193002a64b/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+305
+306        <provider
+306-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+307            android:name="androidx.startup.InitializationProvider"
+307-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+308            android:authorities="com.dezynex.al_dana_admin.androidx-startup"
+308-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+309            android:exported="false" >
+309-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+310            <meta-data
+310-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+311                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+311-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+312                android:value="androidx.startup" />
+312-->[androidx.emoji2:emoji2:1.2.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/e6acde8247786183b2ee28d1a4c213ed/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+313            <meta-data
+313-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:34:13-36:52
+314                android:name="androidx.work.WorkManagerInitializer"
+314-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:35:17-68
+315                android:value="androidx.startup" />
+315-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:36:17-49
+316            <meta-data
+316-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/311dcc400f873f9ae50febc867c04565/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+317                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+317-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/311dcc400f873f9ae50febc867c04565/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+318                android:value="androidx.startup" />
+318-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/311dcc400f873f9ae50febc867c04565/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+319            <meta-data
+319-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+320                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+320-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+321                android:value="androidx.startup" />
+321-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+322        </provider>
+323
+324        <uses-library
+324-->[androidx.window:window:1.0.0-beta04] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/1ef43e594bfdd4d324a6fd61443b5f22/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+325            android:name="androidx.window.extensions"
+325-->[androidx.window:window:1.0.0-beta04] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/1ef43e594bfdd4d324a6fd61443b5f22/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+326            android:required="false" />
+326-->[androidx.window:window:1.0.0-beta04] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/1ef43e594bfdd4d324a6fd61443b5f22/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+327        <uses-library
+327-->[androidx.window:window:1.0.0-beta04] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/1ef43e594bfdd4d324a6fd61443b5f22/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+328            android:name="androidx.window.sidecar"
+328-->[androidx.window:window:1.0.0-beta04] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/1ef43e594bfdd4d324a6fd61443b5f22/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+329            android:required="false" />
+329-->[androidx.window:window:1.0.0-beta04] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/1ef43e594bfdd4d324a6fd61443b5f22/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+330
+331        <service
+331-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+332            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+332-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+333            android:directBootAware="false"
+333-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+334            android:enabled="@bool/enable_system_alarm_service_default"
+334-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+335            android:exported="false" />
+335-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+336        <service
+336-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+337            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+337-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+338            android:directBootAware="false"
+338-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+339            android:enabled="@bool/enable_system_job_service_default"
+339-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+340            android:exported="true"
+340-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+341            android:permission="android.permission.BIND_JOB_SERVICE" />
+341-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+342        <service
+342-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+343            android:name="androidx.work.impl.foreground.SystemForegroundService"
+343-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+344            android:directBootAware="false"
+344-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+345            android:enabled="@bool/enable_system_foreground_service_default"
+345-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+346            android:exported="false" />
+346-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+347
+348        <receiver
+348-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+349            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+349-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+350            android:directBootAware="false"
+350-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+351            android:enabled="true"
+351-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+352            android:exported="false" />
+352-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+353        <receiver
+353-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+354            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+354-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+355            android:directBootAware="false"
+355-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+356            android:enabled="false"
+356-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+357            android:exported="false" >
+357-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+358            <intent-filter>
+358-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+359                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+359-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+359-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+360                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+360-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+360-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+361            </intent-filter>
+362        </receiver>
+363        <receiver
+363-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+364            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+364-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+365            android:directBootAware="false"
+365-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+366            android:enabled="false"
+366-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+367            android:exported="false" >
+367-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+368            <intent-filter>
+368-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+369                <action android:name="android.intent.action.BATTERY_OKAY" />
+369-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+369-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+370                <action android:name="android.intent.action.BATTERY_LOW" />
+370-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+370-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+371            </intent-filter>
+372        </receiver>
+373        <receiver
+373-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+374            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+374-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+375            android:directBootAware="false"
+375-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+376            android:enabled="false"
+376-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+377            android:exported="false" >
+377-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+378            <intent-filter>
+378-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+379                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+379-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+379-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+380                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+380-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+380-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+381            </intent-filter>
+382        </receiver>
+383        <receiver
+383-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+384            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+384-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+385            android:directBootAware="false"
+385-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+386            android:enabled="false"
+386-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+387            android:exported="false" >
+387-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+388            <intent-filter>
+388-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+389                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+389-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+389-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+390            </intent-filter>
+391        </receiver>
+392        <receiver
+392-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+393            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+393-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+394            android:directBootAware="false"
+394-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+395            android:enabled="false"
+395-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+396            android:exported="false" >
+396-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+397            <intent-filter>
+397-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+398                <action android:name="android.intent.action.BOOT_COMPLETED" />
+398-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:87:17-79
+398-->[com.onesignal:notifications:5.1.2] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/8c78b57f2dce085af531816931cab41b/transformed/jetified-notifications-5.1.2/AndroidManifest.xml:87:25-76
+399                <action android:name="android.intent.action.TIME_SET" />
+399-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+399-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+400                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+400-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+400-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+401            </intent-filter>
+402        </receiver>
+403        <receiver
+403-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+404            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+404-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+405            android:directBootAware="false"
+405-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+406            android:enabled="@bool/enable_system_alarm_service_default"
+406-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+407            android:exported="false" >
+407-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+408            <intent-filter>
+408-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+409                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+409-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+409-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+410            </intent-filter>
+411        </receiver>
+412        <receiver
+412-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+413            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+413-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+414            android:directBootAware="false"
+414-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+415            android:enabled="true"
+415-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+416            android:exported="true"
+416-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+417            android:permission="android.permission.DUMP" >
+417-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+418            <intent-filter>
+418-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+419                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+419-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+419-->[androidx.work:work-runtime:2.8.1] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/396e00ce73a72d9e8f1b97d04917dbe5/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+420            </intent-filter>
+421        </receiver>
+422
+423        <service
+423-->[androidx.room:room-runtime:2.5.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/f88e5691fbb9b6dddbc382e0e1ceb198/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+424            android:name="androidx.room.MultiInstanceInvalidationService"
+424-->[androidx.room:room-runtime:2.5.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/f88e5691fbb9b6dddbc382e0e1ceb198/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+425            android:directBootAware="true"
+425-->[androidx.room:room-runtime:2.5.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/f88e5691fbb9b6dddbc382e0e1ceb198/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+426            android:exported="false" />
+426-->[androidx.room:room-runtime:2.5.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/f88e5691fbb9b6dddbc382e0e1ceb198/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+427
+428        <receiver
+428-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+429            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+429-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+430            android:directBootAware="false"
+430-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+431            android:enabled="true"
+431-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+432            android:exported="true"
+432-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+433            android:permission="android.permission.DUMP" >
+433-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+434            <intent-filter>
+434-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+435                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+435-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+435-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+436            </intent-filter>
+437            <intent-filter>
+437-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+438                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+438-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+438-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+439            </intent-filter>
+440            <intent-filter>
+440-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+441                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+441-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+441-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+442            </intent-filter>
+443            <intent-filter>
+443-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+444                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+444-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+444-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a70093bed5d1a0764977ca1dfb5a42a4/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+445            </intent-filter>
+446        </receiver>
+447
+448        <service
+448-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/791abbb3003d931cf3f481cb573daaae/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+449            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+449-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/791abbb3003d931cf3f481cb573daaae/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+450            android:exported="false" >
+450-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/791abbb3003d931cf3f481cb573daaae/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+451            <meta-data
+451-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/791abbb3003d931cf3f481cb573daaae/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+452                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+452-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/791abbb3003d931cf3f481cb573daaae/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+453                android:value="cct" />
+453-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/791abbb3003d931cf3f481cb573daaae/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+454        </service>
+455        <service
+455-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+456            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+456-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+457            android:exported="false"
+457-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+458            android:permission="android.permission.BIND_JOB_SERVICE" >
+458-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+459        </service>
+460
+461        <receiver
+461-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+462            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+462-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+463            android:exported="false" />
+463-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/dezynextechnologysolutons/.gradle/caches/transforms-3/a840ae57f6f96f5c9ac0a675028da8a1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+464    </application>
+465
+466</manifest>
